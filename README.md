@@ -1,11 +1,9 @@
-TypeScript React Hello World Demo
+TypeScript React Render Error Without Error Boundary Demo
 =================================
 
-一个最简单的Typescript + react项目，使用了webpack
+如果react发生了re-render错误，将会导致整个页面白屏，所以我们需要使用ErrorBoundary捕获并提供fallback
 
 ```
 npm install
-npm run demo
+npm start
 ```
-
-It will open page on browser automatically.
